@@ -1,0 +1,49 @@
+# --- Lixo do Sistema & Python ---
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# --- Ambientes Virtuais ---
+env/
+venv/
+.env
+
+# --- MODELOS BAIXADOS (Raiz) ---
+mbart-large-50-many-to-many-mmt/
+nllb-200-distilled-600M/
+google/
+
+# --- ARQUIVOS PESADOS (Bloqueio Geral) ---
+# Isso impede que qualquer arquivo de peso suba, não importa a pasta
+*.safetensors
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.model
+*.msgpack
+*.onnx
+
+# --- PASTA RESULTS (Regra Específica) ---
+# 1. NÃO ignoramos a pasta results em si (para subir os CSVs)
+!results/
+
+# 2. Mas ignoramos as subpastas de checkpoints e modelos dentro dela
+results/**/checkpoint-*/
+results/**/runs/
+results/**/wandb/
+results/**/optimizer.pt
+results/**/scheduler.pt
+
+# --- Outras pastas de treino ---
+chkpt_*/
+best_model_*/
+tupi_translator_model/
+runs/
+wandb/
+
+# --- DADOS ---
+# Se os CSVs forem maiores que 100MB, descomente:
+# *.csv
+# *.xlsx

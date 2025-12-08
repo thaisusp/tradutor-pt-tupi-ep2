@@ -1,0 +1,5 @@
+Modelo,Dataset,Direção,BLEU,chrF1,chrF3
+NLLB Fine-Tuned (Antigo),Antigo,PT -> Tupi,13.06,35.27,34.22
+NLLB Fine-Tuned (Antigo),Antigo,Tupi -> PT,0.78,13.33,12.32
+NLLB Fine-Tuned (Antigo),Moderno,PT -> Tupi,14.44,37.24,36.14
+NLLB Fine-Tuned (Antigo),Moderno,Tupi -> PT,0.78,13.24,12.33

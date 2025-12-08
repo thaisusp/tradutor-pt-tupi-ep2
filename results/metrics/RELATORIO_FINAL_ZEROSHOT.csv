@@ -1,0 +1,13 @@
+Modelo,Dados,Direção,BLEU,chrF1,chrF3
+NLLB,Arcaico,PT->Tupi,0.38,12.78,13.78
+NLLB,Arcaico,Tupi->PT,0.34,11.04,11.75
+NLLB,Moderno,PT->Tupi,0.11,11.81,13.3
+NLLB,Moderno,Tupi->PT,0.6,13.03,12.7
+mBART,Arcaico,PT->Tupi,0.1,9.12,9.67
+mBART,Arcaico,Tupi->PT,0.18,8.82,8.36
+mBART,Moderno,PT->Tupi,0.07,8.72,9.52
+mBART,Moderno,Tupi->PT,0.1,8.33,7.73
+mT5,Arcaico,PT->Tupi,0.04,3.86,3.13
+mT5,Arcaico,Tupi->PT,0.05,4.41,3.29
+mT5,Moderno,PT->Tupi,0.01,4.02,3.29
+mT5,Moderno,Tupi->PT,0.0,4.33,3.23
