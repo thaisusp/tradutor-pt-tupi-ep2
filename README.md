@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tradução Automática de Baixo Recurso: Português ↔ Tupi Antigo
 
 Repositório oficial do **Exercício Programa 2 (EP2)** da disciplina **MAC0508 - Introdução ao Processamento de Língua Natural (USP)**. Este projeto avalia o desempenho de LLMs (*Large Language Models*) na tradução entre Português e Tupi Antigo, explorando regimes *Zero-Shot* e *Fine-Tuning*.
@@ -59,3 +60,10 @@ Reprodução:
 Execute os notebooks na ordem numérica.
 
 Para o Fine-Tuning, utilize GPU (T4 ou superior).
+=======
+# tradutor-pt-tupi-ep2
+End-to-end NLP pipeline for PT–Old Tupi translation: preprocessing, zero-shot baselines, fine-tuning, metrics and analysis.
+
+## **🚧 This project is still under active development 🚧**
+Features, experiments, and documentation will be added soon
+>>>>>>> 9a145e143c535279e367763e508a2d6a301b91cc
